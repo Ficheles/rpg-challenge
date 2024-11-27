@@ -9,7 +9,7 @@
         Em nosso RPG, cada jogador tem a chance de se tornar uma lenda. Seja você um guerreiro corajoso, um mago 
         sábio ou um ladino astuto, há espaço para sua história!
     </p>
-    <img src="https://via.placeholder.com/600x300" alt="Arte do RPG" class="rounded-lg shadow-lg mx-auto mb-8">
+    <img src="https://picsum.photos/600/300" alt="Arte do RPG" class="rounded-lg shadow-lg mx-auto mb-8">
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Card 1 -->

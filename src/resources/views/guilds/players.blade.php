@@ -36,7 +36,7 @@
                 @foreach($guild->players as $player)
                 <tr class="bg-gray-800 hover:bg-gray-700 transition border-b border-rpg-border/30 hover:bg-rpg-primary/10 transition-colors">
                     <td class="px-6 py-4 flex items-center space-x-3">
-                      <img src="https://picsum.photos//48" alt="{{ $player['name'] }}" class="w-10 h-10 rounded-full">
+                      <img src="https://picsum.photos/48/48" alt="{{ $player['name'] }}" class="w-10 h-10 rounded-full">
                       <div>
                         <p class="font-medium text-white">{{ $player['name'] }}</p>
                         <p class="text-sm">{{ $player['level'] }}</p>
@@ -75,12 +75,6 @@
     </a>
 </div>
 @endsection
-
-
-@prepend('scripts')
-
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
-@endprepend
 
 
 <script>
